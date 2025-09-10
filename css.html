@@ -1,0 +1,95 @@
+
+
+<html>
+<head>
+  <title>The Xylophone</title>
+  <style>
+    body {
+      background-color: #f4f4f4;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 100vh;
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      font-size: 50px;
+      font-weight: bold;
+      display: flex;
+      margin-bottom: 40px;
+    }
+
+    h1 span {
+      margin: 0 5px;
+    }
+
+    #violet { color: #D1A0D5; }
+    #indigo { color: #A6A1D1; }
+    #blue { color: #A3C8E4; }
+    #green { color:  #A8D5BA; }
+    #yellow { color: #F6E7A0; }
+    #orange { color: #FFD1A1; }
+    #red { color: #FFB3B3; }
+
+    .button-container {
+      display: flex;
+      gap: 10px;
+    }
+
+    .button {
+      width: 150px;
+      height: 250px;
+      color: white;
+      font-size: 18px;
+      text-align: center;
+      line-height: 50px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .button:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 4px 15px rgba(0, 123, 255, 0.3);
+    }
+
+    .violet { background-color: #D1A0D5; }
+    .indigo { background-color: #A6A1D1; }
+    .blue { background-color: #A3C8E4; }
+    .green { background-color: #A8D5BA; }
+    .yellow { background-color: #F6E7A0; }
+    .orange { background-color: #FFD1A1; }
+    .red { background-color: #FFB3B3; }
+  </style>
+</head>
+<body>
+  <h1>
+    <span id="violet">T</span>
+    <span id="indigo">h</span>
+    <span id="blue">e</span>
+    <span id="green"> </span>
+    <span id="yellow">X</span>
+    <span id="orange">y</span>
+    <span id="red">l</span>
+    <span id="violet">o</span>
+    <span id="indigo">p</span>
+    <span id="blue">h</span>
+    <span id="green">o</span>
+    <span id="yellow">n</span>
+    <span id="orange">e</span>
+  </h1>
+  <div class="button-container">
+    <button style=height:300px class="button violet">Violet</button>
+    <button style=height:275px class="button indigo">Indigo</button>
+    <button style=height:250px class="button blue">Blue</button>
+    <button style=height:225px class="button green">Green</button>
+    <button style=height:200px class="button yellow">Yellow</button>
+    <button style=height:175px class="button orange">Orange</button>
+    <button style=height:150px class="button red">Red</button>
+  </div>
+</body>
+</html>
